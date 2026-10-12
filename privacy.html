@@ -33,21 +33,13 @@ in your device backup if you back your device up, and it is deleted when you del
 <tr><td>Your conversation history</td><td>So the conversation continues across sessions</td><td>Until you clear it or delete the app</td></tr>
 <tr><td>Things you asked to be remembered</td><td>So My Friend can recall them later</td><td>Until you ask it to forget them or delete the app</td></tr>
 <tr><td>Your settings</td><td>So the app works the way you set it up</td><td>Until changed or the app is deleted</td></tr>
-<tr><td>Downloaded voice files</td><td>So speech works offline</td><td>Until the app is deleted</td></tr>
 </table>
 <p><strong>We receive none of it.</strong> To delete it, delete the app. Inside the app you can also ask
 My Friend to forget a specific thing it remembered.</p>
 
 <h2>What leaves your device</h2>
 
-<p><strong>1. Downloading the natural voice — only if you say yes.</strong>
-On first launch My Friend asks whether to download a more natural voice: about 103 MB of
-speech-model files from huggingface.co. Nothing is downloaded unless you choose Download. If you
-choose the built-in voice, nothing is downloaded, and you can change your mind in Settings → Voice.
-The download contains nothing about you. Hugging Face sees your IP address, as any website you
-load does; their privacy policy governs that.</p>
-
-<p><strong>2. Online lookups — nothing is sent unless you allow it.</strong>
+<p><strong>1. Online lookups — nothing is sent unless you allow it.</strong>
 My Friend can check current information: game schedules and scores (ESPN), weather (Open-Meteo),
 news headlines (Google News) and general reference (Wikipedia). By default the app shows you exactly
 what it would send, and to which service, and waits for your OK. Each OK covers one lookup. If you
@@ -57,7 +49,7 @@ topic for news, or a short phrase for reference. It never sends your conversatio
 memories, or anything My Friend has said. Replies that used a lookup are marked. The service
 receives that request and your IP address; its privacy policy governs what it does with them.</p>
 
-<p><strong>3. Advertising — a Google AdMob banner.</strong>
+<p><strong>2. Advertising — a Google AdMob banner.</strong>
 The app shows one banner ad from Google AdMob below the conversation. To request and display ads,
 Google's Mobile Ads SDK sends Google information about the device and the ad, not about your
 conversation. According to Google's own disclosure it may collect your IP address (used to estimate
@@ -77,7 +69,7 @@ with this data: <a href="https://policies.google.com/privacy">policies.google.co
 <li><strong>Your conversations.</strong> Never sent anywhere.</li>
 <li><strong>What you say to the microphone.</strong> Speech is transcribed by iOS on your device. Audio
 is not recorded to a file, uploaded, or kept after the words are recognised.</li>
-<li><strong>What My Friend says back.</strong> Generated and spoken on your device.</li>
+<li><strong>What My Friend says back.</strong> Generated on your device and spoken with your device's built-in voice.</li>
 <li><strong>Your memories.</strong> Stored and used on your device.</li>
 <li><strong>Device motion.</strong> Used to tilt the 3D scene; never stored or transmitted.</li>
 <li><strong>Any identifier of you or your device, from us.</strong> We do not create, read or send one.
@@ -99,7 +91,7 @@ is the only third party that receives anything automatically, and it never recei
 content. We do not sell your data, and no data reaches us in the first place. The app does not
 request App Tracking Transparency permission.</p>
 <p>The app includes FluidAudio (speech), the Google Mobile Ads SDK and Google User Messaging Platform
-SDK (banner ad and ad consent), and downloadable voice models. Attribution is in the app under
+SDK (banner ad and ad consent). Attribution is in the app under
 Settings → About → Licenses.</p>
 
 <h2>Children</h2>
